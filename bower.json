@@ -1,0 +1,22 @@
+{
+  "name": "capture-the-sheep-frp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/iofjuupasli/capture-the-sheep-frp",
+  "authors": [
+    "iofjuupasli <iofjuupasli@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "kefir": "~1.3.1",
+    "react": "~0.13.1",
+    "ramda": "~0.13.0",
+    "kefir-react": "*"
+  }
+}
