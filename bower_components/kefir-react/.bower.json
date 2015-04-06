@@ -1,0 +1,39 @@
+{
+  "name": "kefir-react",
+  "homepage": "https://github.com/iofjuupasli/kefir-react",
+  "authors": [
+    "iofjuupasli <iofjuupasli@gmail.com>"
+  ],
+  "description": "Mixin for linking Kefir.js observables as state value",
+  "main": "KefirConnect.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "kefir",
+    "frp",
+    "mixin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "6d05275ac2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6d05275ac2cbe8c32fe8b13c1a14975d28ce6295"
+  },
+  "_source": "git://github.com/iofjuupasli/kefir-react.git",
+  "_target": "*",
+  "_originalSource": "kefir-react",
+  "_direct": true
+}
