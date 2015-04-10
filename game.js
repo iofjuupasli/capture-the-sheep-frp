@@ -73,7 +73,10 @@
                 possibleNewValue,
                 valueChangeStream
             );
-
+            
+            // value should be `.combine([isInBounds], [possibleNewValue], ...)`
+            // or `.sampledBy(isInBounds)`
+            // because value can be updated before `isInBounds`
             var value = possibleNewValue
                 .filterBy(isInBounds)
                 .toProperty(initialValue);
